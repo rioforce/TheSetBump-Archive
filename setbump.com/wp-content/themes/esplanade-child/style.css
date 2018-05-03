@@ -1,0 +1,38 @@
+/*
+Theme Name: Esplanade-child
+Theme URI: http://www.brickanimation.com
+Description: Child theme for Esplanade by One Designs
+Version: 1.0
+Author: Carter & Silverspine, LLC
+Author URI: http://www.brickanimation.com
+Template: esplanade
+*/
+
+@import url("../esplanade/style.css");
+
+@media screen and (max-width: 1152px) {
+
+	#wrapper {
+		width:960px;
+	}}
+
+.teaser {
+	float:right;
+height:auto;
+	width:43.23%;
+}
+
+.teaser-odd {
+	float:left;
+height:auto;
+}
+
+.teaser .entry-summary { 	
+overflow:visible;
+}
+
+.teaser.format-aside .entry-summary,
+.teaser.format-quote .entry-summary,
+.teaser.format-status .entry-summary {
+	height:auto;
+}
